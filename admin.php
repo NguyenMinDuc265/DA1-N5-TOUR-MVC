@@ -19,8 +19,8 @@ match ($act) {
     /* ===============================
         AUTH
     =============================== */
-    'login'      => (new AuthController())->login(),
-    'logout'     => (new AuthController())->logout(),
+    // 'login'      => (new AuthController())->login(),
+    // 'logout'     => (new AuthController())->logout(),
     'dashboard'  => (new AdminController())->dashboard(),
 
 
